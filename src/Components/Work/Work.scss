@@ -1,15 +1,37 @@
 @import "../../App.scss";
 
+.work-section {
+  height: 100%;
+  width: 100%;
+}
+
 .work-item {
   display: flex;
   flex-direction: row;
-  white-space: nowrap;
   align-items: baseline;
+  justify-content: start;
+  width: 100%;
 }
 
 .work-item a {
   text-transform: uppercase;
-  margin-bottom: 35px;
-  font-size: $h2-desktop-size;
+  margin-bottom: 30px;
+  font-size: $h3-desktop-size;
   margin-left: 10px;
+}
+
+.more-work {
+  position: relative;
+  font-weight: bold;
+  opacity: 0.8;
+  color: $primary-color;
+  margin-top: 20px;
+}
+
+.more-work::before {
+  content: url("../../Assets/arrow-right.png");
+  position: absolute;
+  left: -38px;
+  top: -3px;
+  opacity: 0.75;
 }

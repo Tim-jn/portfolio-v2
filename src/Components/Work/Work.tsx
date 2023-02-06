@@ -3,7 +3,7 @@ import "./Work.scss";
 
 export default function Work() {
   return (
-    <div>
+    <div className="work-section">
       {data.map(({ id, name, date, live, source }) => {
         return (
           <li className="work-item">
@@ -14,6 +14,14 @@ export default function Work() {
           </li>
         );
       })}
+      <a
+        href="https://github.com/tim-jn"
+        target="_blank"
+        className="more-work"
+        rel="noreferrer"
+      >
+        Pour plus d'informations sur les projets
+      </a>
     </div>
   );
 }
