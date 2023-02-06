@@ -1,0 +1,21 @@
+@import "../../App.scss";
+
+header {
+  margin: 20px;
+}
+
+.title {
+  font-size: calc($h1-desktop-size);
+  font-weight: 400;
+  color: $secondary-color;
+  margin-bottom: 10px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: $h2-desktop-size;
+  font-weight: 400;
+  color: $secondary-color;
+  letter-spacing: 1px;
+}

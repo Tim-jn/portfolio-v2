@@ -1,0 +1,15 @@
+@import "../../App.scss";
+
+.work-item {
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  align-items: baseline;
+}
+
+.work-item a {
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  font-size: $h2-desktop-size;
+  margin-left: 10px;
+}
