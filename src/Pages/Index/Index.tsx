@@ -15,6 +15,24 @@ export default function Index() {
     <main className="main-structure">
       <div className="left-content">
         <Title />
+        <div className="social-icons">
+          <a
+            href="https://www.linkedin.com/in/timjeanmart/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className="social-text">LinkedIn</span>
+            <div className="linkedin"></div>
+          </a>
+          <a
+            href="https://github.com/Tim-jn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className="social-text">GitHub</span>
+            <div className="github"></div>
+          </a>
+        </div>
         <nav>
           <ul className="sidebar-links">
             <li>
