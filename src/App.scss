@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&display=swap");
+
+/* 
+
+//// Shared styles /////
+
+*/
+
+// Colors
+
+$primary-color: #2e2e2e;
+$secondary-color: #f0efef;
+$third-color: #b0925a;
+
+// Fonts sizes
+
+$h1-desktop-size: 64px;
+$h1-tablet-size: 63px;
+$h1-mobile-size: 50px;
+
+$h2-desktop-size: 44px;
+$h2-tablet-size: 40px;
+$h2-mobile-size: 38px;
+
+$h3-desktop-size: 22px;
+$h3-tablet-size: 18px;
+
+$p-desktop-size: 18px;
+$p-tablet-size: 16px;
+$p-mobile-size: 14px;
+
+// Fonts families
+
+$primary-font-fam: "Lato", sans-serif;
+$secondary-font-fam: "Roboto", sans-serif;
+
+/* 
+
+//// Global styles /////
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $primary-font-fam;
+}
+
+body {
+  background: url("./Assets/abstract-colorful-soap-bubble-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: default;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.App {
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
