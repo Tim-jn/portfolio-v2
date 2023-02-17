@@ -48,10 +48,8 @@ $secondary-font-fam: "Roboto", sans-serif;
 }
 
 body {
-  background: url("./Assets/abstract-colorful-soap-bubble-background.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
   cursor: default;
+  background-color: $secondary-color;
 }
 
 li {
