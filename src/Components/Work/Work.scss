@@ -16,17 +16,18 @@
 .work-item a {
   text-transform: uppercase;
   margin-bottom: 30px;
-  font-size: $h3-desktop-size;
+  font-size: $h2-desktop-size;
+  letter-spacing: 5px;
   margin-left: 10px;
 }
 
 .more-work {
   position: relative;
-  font-weight: bold;
+  font-weight: 100;
   opacity: 0.7;
   color: $primary-color;
   margin-top: 30px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
 .more-work::before {
