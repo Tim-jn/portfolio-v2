@@ -1,10 +1,15 @@
 import { data } from "../../Data/Work";
 import "./Work.scss";
 
-export default function Work() {
+type Props = {
+  title: string;
+};
+
+export default function Work({ title }: Props) {
   return (
     <div className="work-section">
-      {data.map(({ id, name, date, live, source }) => {
+      <div className="section-title">{title}</div>
+      {data.map(({ id, name, date, live }) => {
         return (
           <li className="work-item">
             <p>{date}</p>

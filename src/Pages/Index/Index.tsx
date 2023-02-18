@@ -24,11 +24,7 @@ export default function Index() {
             <span className="social-text">LinkedIn</span>
             <div className="linkedin"></div>
           </a>
-          <a
-            href="https://github.com/Tim-jn"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://github.com/Tim-jn" target="_blank" rel="noreferrer">
             <span className="social-text">GitHub</span>
             <div className="github"></div>
           </a>
@@ -81,13 +77,13 @@ export default function Index() {
       <div className="right-content">
         <section className="content">
           {content === 1 ? (
-            <About />
+            <About title={"à propos"} />
           ) : content === 2 ? (
-            <Skills />
+            <Skills title={"compétences"} />
           ) : content === 3 ? (
-            <Work />
+            <Work title={"projets"} />
           ) : content === 4 ? (
-            <Contact />
+            <Contact title={"contact"} />
           ) : (
             ""
           )}

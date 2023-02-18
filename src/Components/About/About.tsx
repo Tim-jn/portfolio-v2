@@ -1,8 +1,13 @@
 import "./About.scss";
 
-export default function About() {
+type Props = {
+  title: string;
+};
+
+export default function About({ title }: Props) {
   return (
     <div className="about-section">
+      <div className="section-title">{title}</div>
       <div className="paragraphs">
         <p>
           Je suis Tim, un développeur web passionné, principalement axé

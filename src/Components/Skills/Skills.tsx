@@ -1,8 +1,13 @@
 import "./Skills.scss";
 
-export default function Skills() {
+type Props = {
+  title: string;
+};
+
+export default function Skills({ title }: Props) {
   return (
     <div className="skills-section">
+      <div className="section-title">{title}</div>
       <div className="paragraphs">
         <p>
           Depuis le début de mon parcours en tant que développeur, j'ai pu
