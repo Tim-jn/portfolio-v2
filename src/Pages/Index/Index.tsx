@@ -62,7 +62,7 @@ export default function Index() {
                 }
                 onClick={() => setContent(3)}
               >
-                derniers projets
+                projets
               </button>
             </li>
             <li>

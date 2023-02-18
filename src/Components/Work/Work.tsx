@@ -20,7 +20,7 @@ export default function Work() {
         className="more-work"
         rel="noreferrer"
       >
-        Pour plus d'informations sur les projets
+        Plus d'informations sur les projets
       </a>
     </div>
   );
