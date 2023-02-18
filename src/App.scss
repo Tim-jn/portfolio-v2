@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 /* 
 
@@ -32,7 +33,7 @@ $p-mobile-size: 14px;
 // Fonts families
 
 $primary-font-fam: "Lato", sans-serif;
-$secondary-font-fam: "Roboto", sans-serif;
+$secondary-font-fam: "Bebas Neue", cursive;
 
 /* 
 
@@ -44,7 +45,7 @@ $secondary-font-fam: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: $primary-font-fam;
+  font-family: $secondary-font-fam;
 }
 
 body {
