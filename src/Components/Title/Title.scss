@@ -7,15 +7,21 @@ header {
 .title {
   font-size: calc($h1-desktop-size);
   font-weight: 400;
-  color: $secondary-color;
-  margin-bottom: 10px;
-  letter-spacing: 10px;
+  color: $primary-color;
+  letter-spacing: 5px;
   text-transform: uppercase;
+  font-family: $primary-font-fam;
+  background-color: $secondary-color;
+  transform: skewX(-8deg);
+  padding: 0px 20px;
+  text-align: center;
+  width: fit-content;
 }
 
 .subtitle {
   font-size: $h2-desktop-size;
-  font-weight: 400;
+  font-weight: 100;
+  font-family: $secondary-font-fam;
   color: $secondary-color;
-  letter-spacing: 1px;
+  letter-spacing: 5px;
 }
