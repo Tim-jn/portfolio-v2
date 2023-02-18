@@ -11,10 +11,22 @@
   background-color: transparent;
   opacity: 0.95;
   border-radius: 4px;
-  background: url("../../Assets/abstract-colorful-soap-bubble-background-1.webp");
-  background-size: cover;
-  background-repeat: no-repeat;
   box-shadow: 10px 10px 120px 2px rgb(150, 150, 150);
+  background: linear-gradient(-65deg, #ea8d8d, #a890fe, #fe90af, #c6ea8d);
+  background-size: 400% 400%;
+  animation: gradient 12s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .content {
@@ -50,7 +62,7 @@
 
 .right-content {
   max-width: 40%;
-  opacity: 0.95;
+  opacity: 0.9;
 }
 
 // socials
@@ -60,13 +72,13 @@
   transform: rotate(90deg);
   position: absolute;
   top: 50%;
-  left: -150px;
+  left: -125px;
   overflow: hidden;
   transition: all 0.2s ease;
 }
 
 .social-icons:hover {
-  left: -120px;
+  left: -105px;
 }
 
 .social-icons a {
@@ -118,16 +130,21 @@ nav {
 }
 
 .sidebar-links {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 20px;
   border-top: 4px solid $secondary-color;
+  width: 100%;
 }
 
 .sidebar-link {
   color: $secondary-color;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  padding: 10px 20px;
+  letter-spacing: 6px;
+  padding: 10px 0px;
+  width: 100%;
   font-size: $p-desktop-size;
   transition: all 0.15s ease;
 }
