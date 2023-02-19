@@ -75,19 +75,17 @@ export default function Index() {
         </nav>
       </div>
       <div className="right-content">
-        <section className="content">
-          {content === 1 ? (
-            <About title={"à propos"} />
-          ) : content === 2 ? (
-            <Skills title={"compétences"} />
-          ) : content === 3 ? (
-            <Work title={"projets"} />
-          ) : content === 4 ? (
-            <Contact title={"contact"} />
-          ) : (
-            ""
-          )}
-        </section>
+        {content === 1 ? (
+          <About title={"à propos"} />
+        ) : content === 2 ? (
+          <Skills title={"compétences"} />
+        ) : content === 3 ? (
+          <Work title={"projets"} />
+        ) : content === 4 ? (
+          <Contact title={"contact"} />
+        ) : (
+          ""
+        )}
       </div>
     </main>
   );
