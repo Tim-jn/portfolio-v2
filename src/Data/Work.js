@@ -4,26 +4,25 @@ export const data = [
     name: "Rimarok.com",
     date: "Août, 2022",
     live: "https://rimarok.com/",
-    source: "https://github.com/Skaant/rimarok",
+    pro: true,
   },
   {
     id: 2,
     name: "Shortly",
     date: "Mai, 2022",
     live: "https://timjn-shortly.netlify.app",
-    source: "https://github.com/Tim-jn/shortly",
   },
   {
     id: 3,
     name: "Jeanmartth.be",
     date: "Mars, 2022",
     live: "https://jeanmartth.be",
+    pro: true,
   },
   {
     id: 4,
     name: "Fylo",
     date: "Mars, 2022",
     live: "https://timjn-fylo.netlify.app/",
-    source: "https://github.com/Tim-jn/Fylo",
   },
 ];

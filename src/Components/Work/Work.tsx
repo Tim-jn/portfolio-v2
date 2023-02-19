@@ -9,13 +9,14 @@ export default function Work({ title }: Props) {
   return (
     <div className="work-section">
       <div className="section-title">{title}</div>
-      {data.map(({ id, name, date, live }) => {
+      {data.map(({ name, date, live, pro }) => {
         return (
           <li className="work-item">
             <p>{date}</p>
             <a href={live} target="_blank" rel="noreferrer">
               {name}
             </a>
+            {pro ? <p>(pro)</p> : ""}
           </li>
         );
       })}
