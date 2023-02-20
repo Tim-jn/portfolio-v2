@@ -45,3 +45,11 @@
   top: -3px;
   opacity: 0.7;
 }
+
+// small display
+
+@media screen and (max-width: 1024px) {
+  .work-section {
+    padding: 120px 20px !important;
+  }
+}

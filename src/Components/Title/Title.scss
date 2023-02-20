@@ -1,7 +1,7 @@
 @import "../../App.scss";
 
 header {
-  margin: 30px;
+  margin: 40px 50px;
 }
 
 .title {
@@ -24,4 +24,16 @@ header {
   font-family: $secondary-font-fam;
   color: $secondary-color;
   letter-spacing: 5px;
+}
+
+//small display
+
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: calc($h1-mobile-size);
+  }
+
+  .subtitle {
+    font-size: $h2-mobile-size;
+  }
 }
