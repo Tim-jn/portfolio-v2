@@ -33,7 +33,21 @@ header {
     font-size: calc($h1-mobile-size);
   }
 
+  .title-mobile:nth-child(1) {
+    margin-left: 8px;
+  }
+
   .subtitle {
     font-size: $h2-mobile-size;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  header {
+    margin: 40px auto;
+  }
+
+  .title-mobile:nth-child(1) {
+    margin-left: 8px;
   }
 }

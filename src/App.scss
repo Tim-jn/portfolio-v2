@@ -77,18 +77,5 @@ button {
   align-items: center;
 }
 
-.section-title {
-  font-size: calc($h1-desktop-size) + 30px;
-  letter-spacing: 10px;
-  color: $secondary-color;
-  opacity: 0.95;
-  position: absolute;
-  top: 50%;
-  transform: rotate(-90deg);
-}
-
 @media screen and (max-width: 1440px) {
-  .App {
-    height: inherit;
-  }
 }
